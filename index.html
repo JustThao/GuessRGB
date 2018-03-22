@@ -7,35 +7,34 @@
         <title></title>
     </head>
     <body id="body">
-        <header class="text-center">
+        <header class="text-center" id="nav_header">
             <div class="headline">
-                <h3>The Great</h3>
-                <h1>RGB</h1>
-                <h2>Guessing Game</h2>
+                <h3>Guessing Game</h3>
+                <h1 id="colorToGuess">RGB</h1>
             </div>
         </header>
 
-        <nav class="navbar bg-dark">
+        <nav>
             <div class="flex_container">
                 <div class="flex">
-                    <a id="new_color" href="#">New Colors</a>
-                    <a href="#">Try again</a>
+                    <a id="new_color" href="">New Colors</a>
+                    <h1 id="reaction"><b>GUESS!</b></h1>
                     <div class="hard_easy">
-                        <a href="#">Easy</a>
-                        <a href="#">Hard</a>
+                        <button id="easy" href="#">Easy</button>
+                        <button id="hard" href="#">Hard</button>
                     </div>
                 </div>
             </div>
         </nav>
 
-        <div class="main_section">
+        <div id="main_section">
             <div class="squares_container">
-                <div class="square"></div>
-                <div class="square"></div>
-                <div class="square"></div>
-                <div class="square"></div>
-                <div class="square"></div>
-                <div class="square"></div>
+                <div class="square opt"></div>
+                <div class="square opt"></div>
+                <div class="square opt"></div>
+                <div class="square inv"></div>
+                <div class="square inv"></div>
+                <div class="square inv"></div>
             </div>
         </div>
 
